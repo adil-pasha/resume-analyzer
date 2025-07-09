@@ -6,7 +6,7 @@ with open("sample_keywords.json", "r") as f:
     role_keywords = json.load(f)
 
 st.set_page_config(page_title="Resume Analyzer AI", page_icon="📄")
-st.title("📋 Resume Analyzer (No API)")
+st.title("📋 Resume Analyzer Ai")
 
 st.write("Paste your resume content or bullet points:")
 
