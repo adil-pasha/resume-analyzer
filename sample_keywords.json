@@ -1,0 +1,55 @@
+{
+    "Web Developer": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "Node.js",
+        "Responsive Design",
+        "Git",
+        "REST APIs",
+        "Webpack",
+        "UI/UX"
+    ],
+    "Data Scientist": [
+        "Python",
+        "Pandas",
+        "NumPy",
+        "Scikit-learn",
+        "TensorFlow",
+        "Statistics",
+        "Machine Learning",
+        "Data Visualization",
+        "SQL",
+        "Jupyter"
+    ],
+    "DevOps Engineer": [
+        "Linux",
+        "CI/CD",
+        "Docker",
+        "Kubernetes",
+        "Terraform",
+        "AWS",
+        "Monitoring",
+        "Scripting",
+        "Ansible",
+        "GitHub Actions"
+    ],
+    "IT Operations and Technical Support Engineer": [
+        "Microsoft Intune",
+        "Active Directory",
+        "Windows Server",
+        "Endpoint Management",
+        "Office 365 Administration",
+        "Troubleshooting",
+        "ITIL",
+        "Remote Support",
+        "SCCM",
+        "Ticketing Systems",
+        "Hardware Support",
+        "Network Configuration",
+        "VPN Management",
+        "Patch Management",
+        "User Access Management"
+    ]
+}
