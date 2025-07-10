@@ -1,6 +1,0 @@
-{
-  "Data Scientist": ["Python", "Pandas", "Numpy", "Machine Learning", "Scikit-learn", "SQL", "Data Visualization"],
-  "Web Developer": ["HTML", "CSS", "JavaScript", "React", "Node.js", "Responsive Design", "Git"],
-  "UI/UX Designer": ["Figma", "Wireframing", "Prototyping", "User Research", "Usability Testing", "Adobe XD"],
-  "DevOps Engineer": ["CI/CD", "Docker", "Kubernetes", "AWS", "Terraform", "Monitoring", "Linux"]
-}
