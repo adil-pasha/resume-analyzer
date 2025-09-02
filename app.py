@@ -1,6 +1,39 @@
 import streamlit as st
 import json
 
+#send otp
+import http.client
+
+conn = http.client.HTTPSConnection("api.corpus.swecha.org")
+
+payload = "{\n  \"phone_number\": \"8522944686\"\n}"
+
+headers = { 'content-type': "application/json" }
+
+conn.request("POST", "/api/v1/auth/login/send-otp", payload, headers)
+
+res = conn.getresponse()
+data = res.read()
+
+print(data.decode("utf-8"))
+
+#verify otp
+import http.client
+
+conn = http.client.HTTPSConnection("api.corpus.swecha.org")
+
+payload = "{\n  \"phone_number\": \"8522944686\",\n  \"otp_code\": \"682596\"\n}"
+
+headers = { 'content-type': "application/json" }
+
+conn.request("POST", "/api/v1/auth/login/verify-otp", payload, headers)
+
+res = conn.getresponse()
+data = res.read()
+
+print(data.decode("utf-8"))
+
+
 # Load predefined keywords per role
 with open("sample_keywords.json", "r") as f:
     role_keywords = json.load(f)
